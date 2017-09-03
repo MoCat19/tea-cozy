@@ -58,3 +58,26 @@ html {
   background-color: black;
   text-align: center;
 }
+
+#month .menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#month div {
+  display: block;
+}
+
+#month img {
+  height: 200px;
+  width; 300px;
+  margin: 10px;
+}
+
+#month p {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
