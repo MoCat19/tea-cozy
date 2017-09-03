@@ -18,6 +18,7 @@ html {
   top: 0px;
   left: 0px;
   right: 0px;
+  z-index: 10;
 }
 
 .header .logo {
@@ -29,6 +30,31 @@ html {
   color: seashell;
 }
 
+.nav span {
+  display: inline-black;
+  justify-content: space-between;
+}
+
 .nav {
   text-decoration: underline;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#mission .mission-header {
+  display: block;
+  position: absolute;
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+  background-color: black;
+  text-align: center;
 }
